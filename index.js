@@ -6,8 +6,8 @@ class Cat {
     };
 
     speak = () => {
-        console.log(`${name} says meow!`);
-        return `${name} says meow!`;
+        console.log(`${this.name} says meow!`);
+        return `${this.name} says meow!`;
     };
 }
 
@@ -18,8 +18,8 @@ class Dog {
     };
 
     speak = () => {
-        console.log(`${name} says woof!`);
-        return `${name} says woof!`;
+        console.log(`${this.name} says woof!`);
+        return `${this.name} says woof!`;
     };
 }
 
@@ -31,11 +31,11 @@ class Bird {
 
     speak = () => {
         if (this.sex === 'male') {
-            console.log(`It's me! ${name}, the parrot!`);
-            return `It's me! ${name}, the parrot!`;
+            console.log(`It's me! ${this.name}, the parrot!`);
+            return `It's me! ${this.name}, the parrot!`;
         } else {
-            console.log(`${name} says squawk!`);
-            return `${name} says squawk!`;
+            console.log(`${this.name} says squawk!`);
+            return `${this.name} says squawk!`;
         }
     };
 }
